@@ -50,7 +50,16 @@ class FirstScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/fourth');
                 },
-                child: Text("menuju layar ke empat"))
+                child: Text("menuju layar ke empat")),
+                SizedBox(
+              height: 15,
+            ),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/fifth');
+                },
+                child: Text("menuju layar ke lima"))
+                
           ],
         ),
       ),
